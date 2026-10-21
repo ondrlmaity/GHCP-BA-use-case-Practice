@@ -1,0 +1,6 @@
+We want employees to be able to request vacation leave through an
+internal system. An employee submits a leave request with a start
+date and end date. Their manager then reviews the request and either
+approves or rejects it. If approved, the leave is added to the
+employee's calendar and HR is notified. If rejected, the employee is
+notified with the reason and can submit a new request.

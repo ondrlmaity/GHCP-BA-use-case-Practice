@@ -1,0 +1,25 @@
+# Task: Review Process Flow
+
+## Goal
+Validate the Mermaid flowchart produced by the Process Flow Designer
+against the Clarified Requirement, the approved user stories, and the
+shared Mermaid conventions.
+
+## Checks
+1. **Syntax/structure** — does it comply with
+   `.github/prompts/mermaid-flow-conventions.prompt.md` (valid node
+   types, labeled branches, single Start, reachable End nodes, no
+   dead ends)?
+2. **Coverage** — does the diagram reflect all steps and decision
+   points from the Clarified Requirement? Anything missing?
+3. **Consistency with stories** — does every approved user story map
+   to at least one node/branch? Any story with no representation in
+   the diagram?
+4. **Logical correctness** — any contradictory branches, unreachable
+   nodes, or ambiguous decision conditions?
+
+## Output format (Markdown)
+- Per-check verdict: ✅ Pass or ⚠️ Needs Revision, with specific
+  reason(s) if flagged.
+- **Overall verdict**: "Diagram approved" or "Needs rework" with a
+  short summary.

@@ -1,0 +1,28 @@
+# Task: Analyze Requirement
+
+## Goal
+Convert a raw, high-level stakeholder requirement into a structured
+"Clarified Requirement."
+
+## Steps
+1. Identify all actors/personas involved (e.g., Customer, Admin,
+   System).
+2. Identify the core business goal(s).
+3. Identify the sequence of steps implied by the requirement, in
+   order (useful later for process flow design).
+4. Identify any decision points implied (e.g., "if payment fails...",
+   "if delivery is delayed...").
+5. Identify any constraints or non-functional aspects mentioned (e.g.,
+   performance, security, compliance).
+6. Identify open questions — anything ambiguous, missing, or assumed.
+   If critical information is missing (no clear actor or no clear
+   outcome), list these as open questions rather than guessing.
+
+## Output format (Markdown)
+- **Restated requirement**: one or two sentences, in your own words.
+- **Actors**: bullet list.
+- **Goals**: bullet list.
+- **Steps (in order)**: numbered list.
+- **Decision points**: bullet list (or "None identified").
+- **Constraints**: bullet list (or "None identified").
+- **Open questions**: bullet list (or "None").
